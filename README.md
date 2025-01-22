@@ -32,24 +32,11 @@ python stealthlock.py
 
 ---
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x150?text=🖥️+STEALTHLOCK+HACKER+UI" alt="StealthLock Hacker UI" width="100%">
-</div>
+### Notes:
+1. **GitHub Styling**: The markdown above uses GitHub's built-in support for images, code blocks, headers, and lists for an attractive layout.
+2. **Customization**: Replace placeholders like `https://via.placeholder.com/...` with actual images or assets hosted in your repository.
+3. **Interactive Features**: If you'd like additional HTML-based interactivity for documentation, you could link to a GitHub Pages site hosting a styled HTML version. Let me know if you need help with that!
 
----
-
-## 🛠 Features  
-
-```html
-<div style="background: black; color: #00ff00; padding: 10px; font-family: 'Courier New', Courier, monospace;">
-  <ul>
-    <li>🚀 <b>Real-Time Monitoring:</b> Tracks CPU, battery health, and system status.</li>
-    <li>📸 <b>Screenshot Capture:</b> Send instant screenshots via Telegram.</li>
-    <li>🔗 <b>Command Automation:</b> Execute commands like /help, /cpuinfo, /shutdown.</li>
-    <li>🎭 <b>Stealth Mode:</b> Invisible operations with zero traces.</li>
-    <li>🔐 <b>AES-256 Encryption:</b> Protects all communications.</li>
-  </ul>
-</div>
 
 <div style="background: #000; color: #00ff00; padding: 15px; border-radius: 5px;">
   <ol style="font-family: 'Courier New', Courier, monospace;">
