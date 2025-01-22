@@ -30,6 +30,3 @@ Launch the application using:
 ```bash
 python stealthlock.py
 
----
-
-
