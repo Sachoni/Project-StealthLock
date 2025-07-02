@@ -1,6 +1,6 @@
-# 🛡️ StealthLock: Ultimate System Monitoring Tool  
+# 🛡️ StealthLock: A simple monitoring Tool  
 
-**Top-Classified Software** | Developed by [Your Company Name]  
+**Top-Classified Software** | Developed   
 
 ---
 
@@ -10,10 +10,10 @@
 Tracks system status, CPU usage, battery health, and more.  
 
 ### 📸 **Screenshot Capture**  
-Take screenshots and send them directly via Telegram.  
+Take screenshots and send them directly to you.  
 
 ### 🔗 **Command Automation**  
-Issue commands like `/help`, `/cpuinfo`, `/shutdown`, and more via Telegram.  
+Issue commands like `/help`, `/cpuinfo`, `/shutdown`, and more.  
 
 ### 🎭 **Stealth Mode**  
 Operates discreetly in the background.  
@@ -25,7 +25,12 @@ All communications are secured with **AES-256 encryption** for maximum security.
 
 ## 💻 How to Use  
 
-### **Start the Software**:  
+### **Use VS code or any other IDE for code compilation**:
+### **Copy the code**:
+```bash
+### **Read comments for better understanding**:
+
+---
 Launch the application using:  
 ```bash
 python stealthlock.py
