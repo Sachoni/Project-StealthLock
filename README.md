@@ -1,8 +1,5 @@
 # 🛡️ StealthLock: A simple monitoring Tool  
 
-**Top-Classified Software** | Developed   
-
----
 
 ## 🛠 Features  
 
@@ -26,6 +23,7 @@ All communications are secured with **AES-256 encryption** for maximum security.
 ## 💻 How to Use  
 
 ### **Use VS code or any other IDE for code compilation**:
+
 ### **Copy the code**:
 ```bash
 ### **Read comments for better understanding**:
